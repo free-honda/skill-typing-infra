@@ -50,18 +50,21 @@ cd skill-typing-infra
 ```
 
 **2. Terraform の初期化**
+
 Terraform のプラグインをダウンロードし、初期化を行います。
 ```bash
 terraform init
 ```
 
 **3. リソースの適用**
+
 Terraform を適用し、インフラをデプロイします。
 ```bash
 terraform apply
 ```
 
 **4. リソースの削除**
+
 作成したリソースを削除する場合は、以下のコマンドを実行してください。
 ```bash
 terraform destroy
